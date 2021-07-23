@@ -1,0 +1,67 @@
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.zf-green {
+    color: #68b604;
+}
+
+.btn-success {
+    background-color: #57a900;
+    background-image: -moz-linear-gradient(top, #70d900, #57a900);
+    background-image: -ms-linear-gradient(top, #70d900, #57a900);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#70d900), to(#57a900));
+    background-image: -webkit-linear-gradient(top, #70d900, #57a900);
+    background-image: -o-linear-gradient(top, #70d900, #57a900);
+    background-image: linear-gradient(top, #70d900, #57a900);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#70d900', endColorstr='#57a900', GradientType=0);
+}
+
+.btn-success:hover,
+.btn-success:active,
+.btn-success.active,
+.btn-success.disabled,
+.btn-success[disabled] {
+    background-color: #57a900;
+}
+
+div.container a.navbar-brand > img {
+    display: inline;
+    margin-right: 4px;
+    margin-top: -2px;
+}
+
+.card {
+    cursor: pointer;
+}
+
+.card-body {
+    /*background: #000000; */
+    background: linear-gradient(90deg, rgba(10,8,14,1) 52%, rgba(9,8,9,1) 52%, rgba(41,18,127,1) 98%);
+    max-height: 200px;
+    min-height: 200px;
+}
+
+.date {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.info {
+    color: #ffffff;
+    position: relative;
+}
+.event-summary {
+    text-decoration: underline;
+}
+
+.event-pin {
+    background: url("../img/22903_gps_location_needle_pin_push pin_icon.png") no-repeat;
+    height: 48px;
+    width: 48px;
+    position: absolute;
+    top: -50px;
+    right: 0px;
+}
